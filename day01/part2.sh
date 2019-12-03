@@ -1,5 +1,5 @@
 #!/bin/bash
-# TR3N 
+# TR3N
 #
 
 fuel=0
