@@ -54,7 +54,6 @@ inoun=0
 iverb=0
 while true
   do
-  a_seq[1]=$inoun
     while true
       do
       refresh_array
@@ -65,7 +64,6 @@ while true
       if [ $iverb -ge 100 ]; then 
         break
       fi
-      a_seq[1]=$inoun
       done
   inoun=$((inoun + 1))
   iverb=0
