@@ -1,8 +1,9 @@
 #!/bin/bash
 # TR3N
 #
-#set -x
+
 declare -a a_seq
+
 refresh_array () {
 zz=0
 for x in $(cat input | tr ',' ' ')
@@ -45,10 +46,6 @@ while true
     esac
   done
 }
-
-
-#  a_seq[1]=12
-#  a_seq[2]=2
 
 inoun=0
 iverb=0
